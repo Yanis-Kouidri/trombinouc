@@ -1,0 +1,15 @@
+Liste des conseils donnés lors de notre soutenance :
+
+	- inclure une galerie Photo
+
+	- se prévenir des injections html
+
+	- plus de dossiers
+
+	- qq fonction cool
+
+	- base de données dans le power point
+
+
+toutes les modifications doivent être écrites dans un fichier ! Ce fichier est new.txt
+

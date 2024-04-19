@@ -1,0 +1,176 @@
+/* Réinitialisation des marges et des rembourrages par défaut */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #3498db; /* Couleur de fond de l'en-tête */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Nécessaire pour positionner le pseudo-élément */
+}
+
+/* Style du titre "Trombinouc" */
+header h1 {
+    background-color: #285E8E; /* Couleur de fond du titre */
+    padding: 10px 20px; /* Espacement du titre */
+    display: inline-block; /* Permet d'entourer le texte du titre */
+    border-radius: 4px;
+}
+
+
+/* Style de la barre de navigation */
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+#home-button {
+    text-decoration: none;
+    color: #3498db;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #3498db;
+    margin: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Style des sections de posts */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style des boutons de commentaires */
+section button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Style du titre de la section de profil */
+section h1 {
+    font-size: 1.5em;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Style du pied de page (facultatif) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Liens (soulignés lors du survol) */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style du titre "Les posts" */
+.post-title {
+    margin-top: 20px; /* Marge en haut */
+    margin-bottom: 20px; /* Marge en bas */
+    margin-left: 20px;
+    font-size: 1.5em; /* Taille de police personnalisée */
+    text-align: left; /* Centrer le texte */
+    color: #3498db; /* Couleur du texte personnalisée */
+}
+
+#sign-up {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    max-width: 300px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+  }
+  
+#sign-up p {
+    display: flex;
+    flex-direction: column; /* Aligne les labels et les champs verticalement */
+    margin-bottom: 10px; /* Ajoute un espace entre les champs */
+}
+  
+#sign-up label {
+    font-weight: bold; /* Met en gras les labels */
+    margin-bottom: 5px; /* Ajoute un espace entre les labels et les champs */
+    text-align: left; /* Aligne les labels à gauche */
+}
+  
+#sign-up input,
+#sign-up select,
+#sign-up button {
+    width: 100%; /* Remplit la largeur du conteneur parent */
+    padding: 5px; /* Ajoute un peu d'espace à l'intérieur des champs */
+    margin-top: 5px; /* Ajoute un espace au-dessus des champs */
+}
+
+#sign-up p#login-note {
+    font-size: 14px; /* Taille de police plus petite */
+    line-height: 1; /* Interligne plus petit (par défaut, 1) */
+    font-style: italic;
+    color: #505050;
+}
+  
+#sexe label, #sexe input {
+    display: inline;
+    margin-right: 10px; /* Ajoute de l'espace entre les boutons radio et les labels */
+}
+  
+  
+/* Styles pour le formulaire de publication */
+#post-form {
+    margin: 20px;
+    text-align: left;
+}
+
+#post-form #text {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#post-form #post {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#post-form #post:hover {
+    background-color: #005cbf;
+}
+
+.message {
+    margin-left: 10px;
+    font-size: 22px;
+}
+

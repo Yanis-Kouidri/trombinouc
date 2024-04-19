@@ -1,0 +1,13 @@
+Ce fichier liste toutes les modification apportées au site depuis la soutenance du vendredi 11 juin 2021 :
+
+	- Mise en place d'une sécurité face aux injection html grâce à la fonction htlmspecialchars()
+
+	- Mise en place de la fonction debug() dans le fichier fonctions.php qui permet de faire un print_r d'un tableau entre balise <pre>
+
+	- Sur la page commentaire.php, le post original est affiché au dessus de ses commentaires.
+
+	- Ajout d'un bouton home sur commentaire.php
+
+	- Ajout de la page galerie.php qui affiche les photos présentes dans le dossier Galerie via les fonction listeRep et recupPhotos présentes dans fonctions.php
+
+	- Ajout d'un contrôle sur la page poster.php et commentaire.php qui vérifie que l'utilisateur soit soit administrateur soit ami avec un administrateur.
